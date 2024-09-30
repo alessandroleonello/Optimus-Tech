@@ -1,0 +1,232 @@
+:root {
+    --cinza: #667085;
+    --vermelho: #8E2424;
+    --preto-titulo: #101828;
+    --fonte-principal: "Inter";
+    --branco: white;
+}
+
+body {
+    background-color: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.navbar__paginas__link {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--cinza);
+    font-family: var(--fonte-principal);
+    margin-left: 1em;
+}
+
+.navbar__botoes__link {
+    color: var(--branco);
+    text-decoration: none;
+    background-color: var(--vermelho);
+    padding: 0.5em;
+    border: 1px solid var(--vermelho);
+    border-radius: 8px;
+    margin-left: 1em;
+}
+
+.cabecalho {
+    padding: 96px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.cabecalho__titulo-secao {
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.cabecalho__titulo {
+    color: var(--preto-titulo);
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.cabecalho__texto {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+    padding-top: 12px;
+    line-height: 1.5em;
+}
+
+.metricas {
+    display: flex;
+    align-items: top;
+    gap: 20px;
+    padding: 0 5em ;
+}
+
+.metricas__item {
+    width: 25%;
+}
+
+.metricas__item__valor { 
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+
+.metricas__item__titulo {
+    font-size: 18px;
+    color: var(--preto-titulo);
+    padding: 1em 0;
+}
+
+.metricas__item__texto {
+    font-weight: 400;
+}
+
+.vagas {
+    padding: 96px 0;
+    text-align: center;
+}
+
+.vagas__titulo-secao {
+    font-size: 14px;
+    color: var(--vermelho);
+    background: rgba(142, 36, 36, 0.05);        
+    border-radius: 16px;
+    display: inline;
+    padding: 4px 12px;
+}
+
+.vagas__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto-titulo);
+    padding: 0.5em 0;
+}
+
+.vagas__texto {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.vagas__imagem {
+    padding: 2em 0;
+}
+
+.vagas__lista { 
+   text-align: left;
+   padding-left:20em;
+   margin-bottom: 3em;
+  }
+
+.vagas__lista__titulo {
+    font-size: 20px;
+    color: var(--preto-titulo);
+    margin: 1em 0;
+  }
+
+.vagas__lista__vaga {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 24px;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+.vagas__lista__vaga__informacoes {
+    display: flex;
+    gap: 5em;
+}
+
+.vagas__lista__vaga__titulo {
+    font-size: 18px;
+    color: var(--preto-titulo);
+}
+
+.depoimentos {
+    text-align: center;
+    padding: 0 5em 5em 5em;
+}
+
+.depoimentos__container {
+    background-color:  rgba(195, 25, 25, 0.03);
+    border-radius: 16px;
+    padding: 64px 0;   
+}
+
+.depoimentos__titulo-secao {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vermelho);
+}
+
+.depoimentos__titulo {
+    font-size: 36px;
+    color: var(--preto-titulo);
+    padding: 1em 2em;
+}
+
+.depoimentos__nome-avatar {
+    color: var(--preto-titulo);
+    padding: 0.5em;
+}
+
+.depoimentos__texto {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.rodape {
+    text-align: center;
+    background-color: #F9FAFB;
+    padding: 3em 3em;
+}
+
+.rodape__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto-titulo);
+}
+
+.rodape__texto {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 1em 0;
+}
+
+.rodape__botoes__pesquisa {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 10px;
+    width: 25%;
+    margin-right: 1em;
+}
+
+.rodape__botoes__link {
+    text-decoration: none;
+    color: var(--branco);
+    border: 1px solid var(--vermelho);
+    border-radius: 8px;
+    background: var(--vermelho);
+    padding: 0.5em;
+}
+
+.rodape__direitos-autorais {
+    font-weight: 400;
+    padding: 2em;
+}
